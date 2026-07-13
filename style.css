@@ -12,11 +12,17 @@
   
   width: 100%;
 }
-#navigation a{
+.ull a{
   text-decoration: none;
-  color: #000;
+  color: black;
+  cursor: pointer;
   
 
+}
+.ull{
+  display: flex;
+  list-style: none;
+  gap: 3px;
 }
 .button a{
   text-decoration: none;
@@ -24,14 +30,20 @@ color: white;
   background-color: blue;
   display: inline-block;
   padding: 5px 10px;
+  border: none;
   
+}
+.banner .button{
+  margin-bottom: 20px;
+}
+.button a:hover{
+  color: green;
 }
 
 .logoimg img{
   height: 30px;
   color: white;
   width: auto;
-  filter: brightness(30%) saturate(100%) invert(0%);
   
 }
 .logoimg{
@@ -59,20 +71,22 @@ color: white;
   width: 100%;
   
   align-items: center;
+  margin-bottom: 50px;
   
 }
-.white{
+#white{
   color: white;
 }
 .banner h1{
   margin-bottom: 5px;
   margin-top: 50px;
+  color: white;
 }
 .banner p{
   max-width: 500px;
   margin-bottom: 400px;
 }
-.details{
+#details{
   
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -80,11 +94,16 @@ color: white;
   gap: 20px;
   justify-items: center;
   padding: 10px 10px;
-  
+  margin-bottom: 50px;
   
 }
+#details .blu{
+  color: blue;
+}
 .meet{
+  margin-bottom: 20px;
   grid-column: 1 / -1;
+  color: green;
 }
 .card img{
   width: 100%;
@@ -93,7 +112,11 @@ color: white;
 color: black;
 }
 
-
+.prizing .secu{
+  margin-left: 40px;
+  margin-bottom: 5px;
+  color:  green;
+}
 .prizing{
   display:flex;
   flex-direction: column;
@@ -105,25 +128,53 @@ color: black;
   display: flex;
   flex-direction: column;
   order: -1;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 .allcard{
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  width: 100%;
+  padding: 50px;
   
 }
-.allcard div{
+.allcard .pri-c-1, .black-card,.pri-c-3{
   border:1px solid blue;
   justify-content: center;
-  align-items: center;
   text-align: center;
   flex:1;
-  width: 100%;
-  max-width: 150px;
-  height: auto;
   
-  padding: 50px;
  
+  height: auto;
+  width: 100%;
+ 
+  box-sizing: border-box;
+ 
+}
+.allcard  ul{
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+  text-align: left;
+  padding: 10px 10px;
+  
+}
+.pri-c-3 .button {
+  margin-bottom: 10px;
+}
+.pri-c-1 .button{
+  margin-top: 20px;
+}
+ .po{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: blue;
+}
+.black-card .button{
+  margin-top: px;
+}
+.allcard .black-card{
+  background-color: black;
+  color: white;
 }
