@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.header-things{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 5px;
+  
+  width: 100%;
+}
+#navigation a{
+  text-decoration: none;
+  color: #000;
+  
+
+}
+.button a{
+  text-decoration: none;
+color: white;
+  background-color: blue;
+  display: inline-block;
+  padding: 5px 10px;
+  
+}
+
+.logoimg img{
+  height: 30px;
+  color: white;
+  width: auto;
+  filter: brightness(30%) saturate(100%) invert(0%);
+  
+}
+.logoimg{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ 
+ 
+}
+.logoimg span{
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+.banner{
+  
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/banner.jpg");
+  background-size: cover;
+  background-position:center;
+  justify-content: center; 
+  min-height: 100vh;
+  
+  width: 100%;
+  
+  align-items: center;
+  
+}
+.banner h1,p{
+  color: white;
+}
+.banner h1{
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+.banner p{
+  max-width: 500px;
+  margin-bottom: 400px;
+}
+.details{
+  
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ width: 100%;
+  gap: 20px;
+  justify-items: center;
+  padding: 10px 10px;
+  
+  
+}
+.meet{
+  grid-column: 1 / -1;
+}
+.card img{
+  width: 100%;
+}
+.card p{
+color: black;
+}
