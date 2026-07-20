@@ -137,12 +137,16 @@ color: black;
   gap: 10px;
   width: 100%;
   padding: 50px;
+ 
   
 }
 .allcard .pri-c-1, .black-card,.pri-c-3{
+  display: flex;
+  
+  flex-direction: column;
   border:1px solid blue;
   justify-content: center;
-  text-align: center;
+align-items:  center;
   flex:1;
   
  
@@ -154,10 +158,12 @@ color: black;
 }
 .allcard  ul{
   list-style-position: inside;
-  padding-left: 0;
+  padding-left:0;
   margin: 0;
-  text-align: left;
-  padding: 10px 10px;
+text-align: left;
+display: inline-block;
+  padding:0;
+  padding: 0;
   
 }
 .pri-c-3 .button {
@@ -193,4 +199,7 @@ color: black;
 }
 .footer {
   background-color: ghostwhite;
+}
+.links-social a {
+  font-size:35px;
 }
