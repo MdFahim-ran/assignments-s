@@ -74,7 +74,7 @@ color: white;
   margin-bottom: 50px;
   
 }
-#white{
+.white{
   color: white;
 }
 .banner h1{
@@ -166,19 +166,21 @@ display: inline-block;
   padding: 0;
   
 }
-.pri-c-3 .button {
-  margin-bottom: 10px;
+.pri-c-3 .button a{
+  margin-bottom: 3px;
 }
 .pri-c-1 .button{
-  margin-top: 20px;
+  margin-top: px;
 }
  .po{
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
-  color: blue;
+  color: rgb(118, 118, 222);
+  font-size: larger;
 }
 .black-card .button{
-  margin-top: px;
+  margin-top: 5px;
+margin-bottom: 10px;
 }
 .allcard .black-card{
   background-color: black;
@@ -202,4 +204,19 @@ display: inline-block;
 }
 .links-social a {
   font-size:35px;
+}
+#navigation ul{
+  gap: 20px;
+}
+#venue{
+  margin-bottom: 50px;
+}
+.schedule{
+  margin-bottom: 20px;
+}
+#schedule h3{
+  margin-bottom: 10px;
+}
+#venue h3{
+  margin-bottom: 10px;
 }
