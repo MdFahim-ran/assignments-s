@@ -209,14 +209,146 @@ margin-bottom: 10px;
   gap: 20px;
 }
 #venue{
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .schedule{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #schedule h3{
   margin-bottom: 10px;
 }
 #venue h3{
   margin-bottom: 10px;
+}
+
+
+/* =========================
+   COMMON
+========================= */
+
+section{
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:38px;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#555;
+    max-width:650px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* =========================
+   TRACKS
+========================= */
+
+.tracks{
+    background:#f8fafc;
+}
+
+.track-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+
+.track-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.track-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 28px rgba(0,0,0,.15);
+}
+
+.track-card h3{
+    margin-bottom:15px;
+    color:#0f172a;
+    font-size:22px;
+}
+
+.track-card p{
+    color:#555;
+    line-height:1.8;
+}
+
+/* =========================
+   DESTINATION
+========================= */
+
+.destination{
+    background:linear-gradient(135deg,#0ea5e9,#2563eb);
+    color:#fff;
+    text-align:center;
+    border-radius:20px;
+    margin:80px 8%;
+}
+
+.destination-content h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.destination-content p{
+    max-width:750px;
+    margin:auto;
+    line-height:1.9;
+    font-size:18px;
+}
+
+/* =========================
+   FAQ
+========================= */
+
+.faq{
+    background:#f8fafc;
+}
+
+.faq-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.faq-container details{
+    background:#fff;
+    margin-bottom:18px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq-container summary{
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+    color:#0f172a;
+}
+
+.faq-container p{
+    margin-top:15px;
+    color:#555;
+    line-height:1.8;
+}
+
+.faq-container a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+.faq-container a:hover{
+    text-decoration:underline;
 }
